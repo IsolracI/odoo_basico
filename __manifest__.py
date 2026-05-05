@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 {
     'name': "odoo_basico",
 
@@ -24,13 +25,13 @@
 
     # always loaded
     'data': [
-        'security/ir.model.access.csv',
-        'views/menu.xml',
         'views/suceso.xml',
         'views/informacion.xml',
-        'views/templates.xml',
         'reports/report_informacion.xml',
-        'reports/report_header.xml'
+        'reports/report_header.xml',
+        'views/templates.xml',
+        'views/menu.xml',
+        'security/ir.model.access.csv',
     ],
     # only loaded in demonstration mode
     'demo': [

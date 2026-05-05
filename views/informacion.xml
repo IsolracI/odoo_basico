@@ -3,7 +3,7 @@
     <record model="ir.actions.act_window" id="informacion_list_action">
       <field name="name">modulo odoo_basico, modelo informacion</field>
       <field name="res_model">odoo_basico.informacion</field>
-      <field name="view_mode">tree,form,graph,pivot</field>
+      <field name="view_mode">list,form,graph,pivot</field>
       <field name="help" type="html">
         <p class="o_view_nocontent_smiling_face"> Tes que crear o 1º Rexistro </p>
       </field>
@@ -13,7 +13,7 @@
       <field name="name">odoo_basico.list</field>
       <field name="model">odoo_basico.informacion</field>
       <field name="arch" type="xml">
-        <tree>
+        <list>
           <field name="name"/>
           <field name="descripcion"/>
           <field name="alto_en_cms"/>
@@ -23,7 +23,7 @@
           <field name="densidade"/>
           <field name="autorizado"/>
           <field name="sexo_traducido"/>
-        </tree>
+        </list>
       </field>
     </record>
 
