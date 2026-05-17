@@ -27,12 +27,14 @@
     'data': [
         'views/suceso.xml',
         'views/informacion.xml',
+        'views/persoa.xml',
         'reports/report_informacion.xml',
         'reports/report_header.xml',
         'accions_planificadas/accion_planificada.xml',
+        'security/xestion_usuarios.xml',
         'views/templates.xml',
         'views/menu.xml',
-        'security/ir.model.access.csv',
+        'security/ir.model.accessVersionBasica.csv',
     ],
     # only loaded in demonstration mode
     'demo': [
