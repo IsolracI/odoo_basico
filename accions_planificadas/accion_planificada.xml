@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <record  model="ir.cron"  id="envio_facturas">
+            <field name="name">Revisión de Facturas</field>
+            <field name="active" eval="True"  />
+            <field name="user_id" ref="base.user_root" />
+            <field name="interval_number">1</field>
+            <field name="interval_type">weeks</field>
+            <field name="model_id" ref="model_account_move" />  <!-- Odoo Version 13 -->
+            <field name="state">code</field>
+            <field name="code">model.listado_facturas()</field>
+        </record>
+    </data>
+</odoo>

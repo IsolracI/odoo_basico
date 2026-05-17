@@ -29,7 +29,7 @@
         'views/informacion.xml',
         'reports/report_informacion.xml',
         'reports/report_header.xml',
-        'accions_planificadas/accions_planificadas.xml',
+        'accions_planificadas/accion_planificada.xml',
         'views/templates.xml',
         'views/menu.xml',
         'security/ir.model.access.csv',
