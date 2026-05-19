@@ -1,8 +1,7 @@
 <odoo>
     <data>
         <record model="ir.module.category" id="Grupos_para_odoo_basico"> <!-- id externo para identificar o rexistro -->
-            <field name="name">Xestión de odoo_basico. Grupo:
-            </field><!-- Se visualiza na pantalla de usuario para escoller o grupo e é o nome para a categoría-->
+            <field name="name">Xestión de odoo_basico. Grupo:</field><!-- Se visualiza na pantalla de usuario para escoller o grupo e é o nome para a categoría-->
             <field name="description">Xestión de odoo basico</field>
             <field name="sequence">2</field>
         </record>

@@ -34,7 +34,7 @@
         'security/xestion_usuarios.xml',
         'views/templates.xml',
         'views/menu.xml',
-        'security/ir.model.accessVersionBasica.csv',
+        'security/ir.model.access.csv',
     ],
     # only loaded in demonstration mode
     'demo': [
