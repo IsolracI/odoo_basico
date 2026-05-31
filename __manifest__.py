@@ -28,6 +28,8 @@
         'views/suceso.xml',
         'views/informacion.xml',
         'views/persoa.xml',
+        'views/lineapedido.xml',
+        'views/pedido.xml',
         'reports/report_informacion.xml',
         'reports/report_header.xml',
         'accions_planificadas/accion_planificada.xml',

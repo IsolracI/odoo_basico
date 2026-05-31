@@ -1,0 +1,50 @@
+<odoo>
+    <record model="ir.actions.act_window" id="pedido_list_action">
+        <field name="name">modulo odoo_basico, modelo pedido</field>
+        <field name="res_model">odoo_basico.pedido</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Tes que crear o 1º Rexistro</p>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="pedido_form_view">
+        <field name="name">odoo_basico.form</field>
+        <field name="model">odoo_basico.pedido</field>
+        <field name="arch" type="xml">
+            <form string="Formulario de pedido">
+                <header>
+                    <button name="actualizadorSexo" type="object"
+                            string="Actualiza o campo Sexo do modelo información"/>
+                    <button name="creaRexistroInformacion" type="object" string="Crear Rexistro no modelo Información"/>
+                    <button name="actualizaRexistroInformacion" type="object"
+                            string="Actualizar Rexistro no modelo Información"/>
+                    <button name="actualizadorHoraTimezone" type="object" string="Actualiza Hora Timezone do Usuario en todos os rexistros do modelo información"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="partner_id"/>
+                        <field name="persoa_id"/>
+                        <field name="fecha"/>
+                        <separator string="Visualizar e engadir"/>
+                        <field name="lineapedido_ids"/>
+                        <!--                        Se quixeramos que non se poideran editar as lineapedido:-->
+                        <!--                        <separator string="Só visualizar"/>-->
+                        <!--                        <field name="lineapedido_ids" readonly="1"/>-->
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record model="ir.ui.view" id="pedido_list_view">
+        <field name="name">odoo_basico.list</field>
+        <field name="model">odoo_basico.pedido</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="partner_id"/>
+                <field name="fecha"/>
+            </list>
+        </field>
+    </record>
+</odoo>
