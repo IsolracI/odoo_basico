@@ -31,7 +31,7 @@
         'views/lineapedido.xml',
         'views/pedido.xml',
         'reports/report_informacion.xml',
-        'reports/report_header.xml',
+#        'reports/report_header.xml',
         'accions_planificadas/accion_planificada.xml',
         'security/xestion_usuarios.xml',
         'views/templates.xml',
